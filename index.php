@@ -62,7 +62,7 @@ $str = 'start'; //это подстрока
       bot('sendChatAction',['chat_id'=>$chat_id,'action'=>"typing"]);
       bot('sendmessage',[
       'chat_id'=>$chat_id,
-        'text'=>"Salom <b>$first_name</b> Bilimdonlar guruhida ushbu harakatlar man etiladi.Qoidalarga qat'iy amal qiling:\n\n - O'zaro chat qilish;\n - savol-javobga aloqasi bo'lmagan mavzularda gaplashish;\n - odob-axloq qoidalariga zid mazmundagi, diniy va siyosiy gap-so'zlar;\n - guruhga ruxsatsiz bot qo'shish;\n - guruh foydalanuvchilarining shaxsiy habarnomasiga yozish yoki ularni shaxsiy habarnomaga  tortish;\n - savol ustiga savol tashlash;\n - guruh adminlari ko'rsatmalariga amal qilmaslik;\n - guruhga kanal, guruh, bot yoki boshqa mahsulotlar reklamasini vaa ular postlaridan ko'chirmalar jo'natish taqiqlanadi.\nAgar shu qoidalarga rozi bo'lsangiz hoziroq <b> $res </b> raqamini yozing. Unutmang, qoidaga qarshi har qanday harakat jazoga olib kelishi mumkin.
+        'text'=>"Salom <b>$first_name</b> Hackerlar guruhida ushbu harakatlar man etiladi.Qoidalarga qat'iy amal qiling:\n\n - O'zaro chat qilish;\n - savol-javobga aloqasi bo'lmagan mavzularda gaplashish;\n - odob-axloq qoidalariga zid mazmundagi, diniy va siyosiy gap-so'zlar;\n - guruhga ruxsatsiz bot qo'shish;\n - guruh foydalanuvchilarining shaxsiy habarnomasiga yozish yoki ularni shaxsiy habarnomaga  tortish;\n - savol ustiga savol tashlash;\n - guruh adminlari ko'rsatmalariga amal qilmaslik;\n - guruhga kanal, guruh, bot yoki boshqa mahsulotlar reklamasini vaa ular postlaridan ko'chirmalar jo'natish taqiqlanadi.\nAgar shu qoidalarga rozi bo'lsangiz hoziroq <b> $res </b> raqamini yozing. Unutmang, qoidaga qarshi har qanday harakat jazoga olib kelishi mumkin.
 ",
       'parse_mode'=>'html'
     ]);
